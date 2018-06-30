@@ -1,0 +1,15 @@
+{
+                    "name": "Alcconverter",
+                    "short_name": "ALC3.0",
+                    "lang": "en-US",
+                    "start_url": ".",
+                    "display": "standalone",
+                    "theme_color": "#fff",
+                    "icons": [
+                                        {
+                                                            "src": "img/favicon.ico",
+                                                            "sizes": "48x48",
+                                                            "type": "image/x-icon"
+                                        }
+                    ]
+}
