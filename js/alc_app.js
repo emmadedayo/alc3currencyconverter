@@ -42,7 +42,7 @@ if (navigator.serviceWorker) {
 // registering sw function
 function registerServiceWorker() {
                     // register the service worker
-                    navigator.serviceWorker.register('alc3currencyconverter/alc_sw/sw.js').then(function (sw) {
+                    navigator.serviceWorker.register('/alc_sw/sw.js').then(function (sw) {
                                         // check service worker controller
                                         if (!navigator.serviceWorker.controller) return;
 
