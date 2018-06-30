@@ -9,7 +9,29 @@
 /* Service Worker Registration */
 var cacheName = 'alc-cuc-v2';
 var cacheAccess = [
-	    
+	  'https://github.com/emmanzley/alc3currencyconverter.github.io',
+	  'https://github.com/emmanzley/alc3currencyconverter.github.io/index.html',
+	  'https://github.com/emmanzley/alc3currencyconverter.github.io/css/font-awesome.min.css',
+	  'https://github.com/emmanzley/alc3currencyconverter.github.io/css/lightbox.min.css',
+	  'https://github.com/emmanzley/alc3currencyconverter.github.io/css/materialize.min.css',
+	  'https://github.com/emmanzley/alc3currencyconverter.github.io/css/owl.carousel.css',
+	  'https://github.com/emmanzley/alc3currencyconverter.github.io/css/owl.theme.css',
+	  'https://github.com/emmanzley/alc3currencyconverter.github.io/css/owl.transitions.css',
+	  'https://github.com/emmanzley/alc3currencyconverter.github.io/css/slick.css',
+	  'https://github.com/emmanzley/alc3currencyconverter.github.io/css/slick-theme.css',
+	  'https://github.com/emmanzley/alc3currencyconverter.github.io/css/style.css',
+	
+	  'https://github.com/emmanzley/alc3currencyconverter.github.io/js/alc_app.js',
+	  'https://github.com/emmanzley/alc3currencyconverter.github.io/js/custom.js',
+	  'https://github.com/emmanzley/alc3currencyconverter.github.io/js/lightbox.min.js',
+	  'https://github.com/emmanzley/alc3currencyconverter.github.io/js/materialize.min.js',
+	  'https://github.com/emmanzley/alc3currencyconverter.github.io/js/owl.carousel.min.js',
+	  'https://github.com/emmanzley/alc3currencyconverter.github.io/js/slick.min.js',
+	  'https://github.com/emmanzley/alc3currencyconverter.github.io/img/1.jpg',
+	  'https://github.com/emmanzley/alc3currencyconverter.github.io/img/2.jpg',
+	  'https://github.com/emmanzley/alc3currencyconverter.github.io/img/3.jpg',
+	  'https://github.com/emmanzley/alc3currencyconverter.github.io/img/4.jpg',
+	  'https://github.com/emmanzley/alc3currencyconverter.github.io/img/favicon.png',
 	  'https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js',
 	  'https://free.currencyconverterapi.com/api/v5/currencies',
 	  
