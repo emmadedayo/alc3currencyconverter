@@ -7,7 +7,7 @@
 */
 
 /* Service Worker Registration */
-var cacheName = 'alc-cuc-v2';
+var cacheName = 'alc3-cuc-v2';
 var cacheAccess = [
 	  'https://github.com/emmanzley/alc3currencyconverter.github.io',
 	  'https://github.com/emmanzley/alc3currencyconverter.github.io/index.html',
@@ -64,7 +64,7 @@ self.addEventListener('activate', function(event){
 
 	cacheNames.filter(function(cacheName){
 
-	return cacheName.startsWith('alc-') && cacheName !== cacheName;
+	return cacheName.startsWith('alc3-') && cacheName !== cacheName;
 
 	}).map(function(cacheName){
 
