@@ -23,7 +23,7 @@ Building the progressive web application requires all above listed items to prov
 
 ### Github page
 
-This application is hosted on using Github page [visit here](https://alc3currencyconverter.github.io/).
+This application is hosted on using Github page [visit here](https://emmanzley.github.io/alc3currencyconverter/).
 
 ### Support or Contact
 
