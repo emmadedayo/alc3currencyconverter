@@ -236,8 +236,8 @@ const getAllCurrencies = (e) => {
                     // using template leteral
                         //console.log(val.id);
 
-                     $("#currency_from").append(`<option value="${val.id}">(${val.currencyName})</option>`);
-                    $("#currency_to").append(`<option value="${val.id}">(${val.currencyName})</option>`);
+                     $("#currency_from").append(`<option value="${val.id}">${val.currencyName}</option>`);
+                    $("#currency_to").append(`<option value="${val.id}">${val.currencyName}</option>`);
                                         }
                     });
 }
@@ -284,7 +284,7 @@ function CurrencyConverter() {
                      let result_to = opt_curr_to.options[opt_curr_to.selectedIndex].innerHTML;
                     
                      //console.log(amount*val.val.toFixed(2))
-                    $("#result").append(`<div id="result_output" style="color: #448aff;"><b>${amount} </b> <b> ${curr_amt_text}</b> = <b>${(amount * val.val).toFixed(2)} ${result_to}</b></div>`);
+                    $("#result").append(`<div id="result_output" style="color: #448aff;"><b>${amount} </b> <b> ${curr_amt_text}</b> = <b>${amount * val.val.toFixed(2)} ${result_to}</b></div>`);
 
                   let object = { symbol: body,value: val.val};
 
